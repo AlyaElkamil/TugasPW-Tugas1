@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Card } from 'react-bootstrap';
+import photo2 from '../assets/images/photo2.jpg';
 
 const Galeri = () => {
   return (
@@ -16,7 +17,7 @@ const Galeri = () => {
         </Col>
         <Col md={4}>
           <Card>
-            <Card.Img variant="top" src="src/assets/images/photo2.jpg" />
+          <Card.Img variant="top" src={photo2} />
             <Card.Body>
               <Card.Title>Myself</Card.Title>
             </Card.Body>

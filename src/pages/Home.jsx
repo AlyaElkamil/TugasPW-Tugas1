@@ -1,5 +1,6 @@
 import React from 'react';
 import {Container, Row, Col, Card, Image} from 'react-bootstrap';
+import profilImage from '../assets/images/photo1 (3).jpg';
 import '../App.css';
 
 const Home = () => {
@@ -9,7 +10,7 @@ const Home = () => {
         <Col md={6}>
           <Card.Img
             variant="top"
-            src='src/assets/images/photo1 (3).jpg'
+            src={profilImage}
             alt="Foto Profil"
             fluid
             />
