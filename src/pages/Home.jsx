@@ -9,7 +9,7 @@ const Home = () => {
         <Col md={6}>
           <Card.Img
             variant="top"
-            src='src\assets\images\photo1 (3).jpg'
+            src='src/assets/images/photo1 (3).jpg'
             alt="Foto Profil"
             fluid
             />

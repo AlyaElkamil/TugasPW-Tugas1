@@ -16,7 +16,7 @@ const Galeri = () => {
         </Col>
         <Col md={4}>
           <Card>
-            <Card.Img variant="top" src="src\assets\images\photo2.jpg" />
+            <Card.Img variant="top" src="src/assets/images/photo2.jpg" />
             <Card.Body>
               <Card.Title>Myself</Card.Title>
             </Card.Body>
